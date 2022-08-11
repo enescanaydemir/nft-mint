@@ -1,0 +1,27 @@
+{
+  "name": "Emoji Faces #3",
+  "description": "Mimics for different feelings.",
+  "image": "ipfs://NewUriToReplace/3.png",
+  "dna": "f50adfe957e5ed3419f8a891eee59ce6e2d901f8",
+  "edition": 3,
+  "date": 1660248468339,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Left Eye",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Right Eye",
+      "value": "Skew Gold"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Sad"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

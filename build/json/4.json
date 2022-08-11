@@ -1,0 +1,27 @@
+{
+  "name": "Emoji Faces #4",
+  "description": "Mimics for different feelings.",
+  "image": "ipfs://NewUriToReplace/4.png",
+  "dna": "dcbefaefa794803c01d51a54fe6984b176bbfae7",
+  "edition": 4,
+  "date": 1660248468375,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Left Eye",
+      "value": "Partial Top"
+    },
+    {
+      "trait_type": "Right Eye",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smile Skew Huge"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

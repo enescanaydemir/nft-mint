@@ -1,0 +1,27 @@
+{
+  "name": "Emoji Faces #6",
+  "description": "Mimics for different feelings.",
+  "image": "ipfs://NewUriToReplace/6.png",
+  "dna": "d9c948eab89c7c815aac439613c230c5c0f2e709",
+  "edition": 6,
+  "date": 1660248468448,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Left Eye",
+      "value": "Skew"
+    },
+    {
+      "trait_type": "Right Eye",
+      "value": "Partial Top"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smile Skew Huge Gold"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

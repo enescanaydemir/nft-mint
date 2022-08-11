@@ -1,0 +1,27 @@
+{
+  "name": "Emoji Faces #9",
+  "description": "Mimics for different feelings.",
+  "image": "ipfs://NewUriToReplace/9.png",
+  "dna": "316ed920f32a2ac66e947df4f65877588ddbe9d8",
+  "edition": 9,
+  "date": 1660248468574,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Left Eye",
+      "value": "Skew"
+    },
+    {
+      "trait_type": "Right Eye",
+      "value": "Partial Bottom"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smile"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

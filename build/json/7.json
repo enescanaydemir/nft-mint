@@ -1,0 +1,27 @@
+{
+  "name": "Emoji Faces #7",
+  "description": "Mimics for different feelings.",
+  "image": "ipfs://NewUriToReplace/7.png",
+  "dna": "9fdf08c8ba64fd5e531416eae760390a1e577ddf",
+  "edition": 7,
+  "date": 1660248468485,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Left Eye",
+      "value": "Skew"
+    },
+    {
+      "trait_type": "Right Eye",
+      "value": "Partial Top"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smile Skew Huge"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

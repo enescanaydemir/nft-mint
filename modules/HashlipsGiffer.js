@@ -11,6 +11,7 @@ class HashLipsGiffer {
     this.delay = _delay;
     this.initGifEncoder();
   }
+  
 
   initGifEncoder = () => {
     this.gifEncoder = new GifEncoder(this.canvas.width, this.canvas.height);
