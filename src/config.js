@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Emoji Faces";
+const description = "Mimics for different feelings.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -21,29 +21,31 @@ const solanaMetadata = {
   ],
 };
 
-// If you have selected Solana then the collection starts from 0 automatically
-const layerConfigurations = [
+
+/***
+ * layerConfigurations içerisine iki farklı growEditionSizeTo verip farklı farklı üretim yapılabilir. Bu özelliği arttırmak için
+ * bir yöntem. 50 il grow için 150 sonraki grow için veriyoruz toplamda 150 oluyor. Bu kısımda neden ikinciyi 100 vermiyoruz ?
+ * Çünkü önceki 50 yi ekleyip üst üste mint ediyoruz.
+ */
+const layerConfigurations = [ 
   {
-    growEditionSizeTo: 5,
-    layersOrder: [
+    growEditionSizeTo: 10, //oluşturmak istediğimiz NFT sayısı
+    layersOrder: [ // Bu kısımda sıralamalar önemli, dosya kısmında nasıl sıraladıysak o şekilde sıralanmalı
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Left Eye" },
+      { name: "Right Eye" },
+      { name: "Mouth" },
     ],
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 500,
+  height: 500,
   smoothing: false,
 };
 
@@ -68,7 +70,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 10 / 128,
 };
 
 const background = {
